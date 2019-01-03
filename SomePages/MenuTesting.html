@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Menu Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <img src="https://media.tenor.com/images/f226dcc33fd3e2ea7f0b11e4a88ec8ed/tenor.gif">
+    <form>
+        <p>Do you perfer cats or dogs?</p>
+        <label for="dogs">Dogs:</label>
+        <input name="petChoice" id="dogs" type="radio" value="DOGS">
+        <label for="cats">Cats:</label>
+        <input name="petChoice" id="cats" type="radio" value="CATS">
+
+        <p>Favorite mode of transport</p>
+        <select name="transport">
+            <option>CAR</option>
+            <option>MOTORCYCLE</option>
+            <option>PLANE</option>
+        </select>
+
+        <p>What's your current mood?</p>
+        <select name="mood">
+            <option value="HAPPY">=)</option>
+            <option value="NEUTRAL">=|</option>
+            <option value="SAD">=(</option>
+        </select>
+
+        <textarea name="desc" rows=10 cols=20></textarea>
+    
+        <!-- if a button is the last element in a form,
+             it functions as input-type: submit -->
+        <button>Go!</button>
+    </form>
+</body>
+</html>

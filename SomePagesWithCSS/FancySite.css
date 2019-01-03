@@ -1,0 +1,27 @@
+h1 {
+    color: whitesmoke;
+    text-shadow: 5px 5px goldenrod;
+}
+
+h2 {
+    color: whitesmoke;
+}
+
+li {
+    color: whitesmoke;
+    text-align: left;
+    font-size: 130%;
+}
+
+#introwrap {
+    background: rgba(50,30,20,0.7);
+    border: 5px solid black;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+body {
+    background: url(http://www.wallpaperhdc.com/wp-content/uploads/2017/04/wood-grain-textures-new-hd-collection.jpg);
+    background-size: cover;
+}

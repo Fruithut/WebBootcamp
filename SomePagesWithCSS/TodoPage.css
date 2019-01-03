@@ -1,0 +1,35 @@
+body {
+    background: slategrey;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    text-shadow: 5px 5px 5px darkgreen;
+}
+
+#li1 {
+    background: rgba(0,70,0,1);
+    text-decoration: line-through;
+}
+
+#li2 {
+    background: rgba(0,70,0,0.7);
+}
+
+#li3 {
+    background: rgba(0,70,0,0.5);
+}
+
+.funkystyle {
+    background: seagreen;
+    box-shadow: 5px 5px darkslategray;
+}
