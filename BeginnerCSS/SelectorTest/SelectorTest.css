@@ -1,0 +1,26 @@
+/*There are many types of CSS selectors, here are some*/
+
+/*Select a ul-element that comes after an h4 element*/
+h4 + ul {
+    background-color: rebeccapurple;
+}
+
+/*Apply to all*/
+* {
+    border: 2px solid darkgreen;
+}
+
+/*Select decendant off*/
+li a {
+    color: green;
+}
+
+/*Attribute selector (href, type, etc..)*/
+a[href="https://www.tek.no"] {
+    text-shadow: 2px 2px black;
+}
+
+/*Nth selector*/
+li:nth-of-type(3) {
+    background: slateblue;
+}

@@ -1,0 +1,8 @@
+p {
+    border: 2px solid blue;
+    width: 50%;
+    padding-left: 30px;
+    /* margin: 20px 40px 500px 100px; */
+    /* auto keyword will center an element's margins */
+    margin: 40px auto 0 auto;
+}
