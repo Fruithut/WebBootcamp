@@ -1,0 +1,9 @@
+body {
+    background: url(https://images.unsplash.com/photo-1473163928189-364b2c4e1135);
+}
+
+#startcontent {
+    color: white;
+    text-align: center;
+    padding-top: 25%;
+}
