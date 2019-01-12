@@ -1,0 +1,30 @@
+body {
+    background: url(https://images.unsplash.com/photo-1500067025552-cfb5c7a369ed);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+#startcontent {
+    color: white;
+    text-align: center;
+    margin-top: 25%;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5),
+                 0px 8px 13px grey,
+                 0px 18px 23px lightgrey;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5em;
+}
+
+hr {
+    width: 50%;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
