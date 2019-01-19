@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(66, 66, 66);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    padding: 1em 1em;
+}
+
+.winner {
+    color: green;
+    font-size: 20;
+}
