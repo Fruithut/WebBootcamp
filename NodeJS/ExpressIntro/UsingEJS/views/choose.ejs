@@ -1,0 +1,9 @@
+<% include partials/header %>
+
+<h1>You choose this: <%= thingVar.toUpperCase() %> </h1>
+<% if (thingVar.toLowerCase() === "rusty") { %>
+    <p>GOOD CHOICE!</p>
+<% } %>
+<p>This is the choose.ejs file</p>
+
+<% include partials/footer %>
