@@ -3,12 +3,12 @@ let app = express();
 
 app.listen(process.env.PORT || 3000, function () {
     console.log("Server has started.")
-})
+});
 
 // routes
 app.get("/", function () {
     console.log("Hi there, welcome to my assignment!");
-})
+});
 
 app.get("/speak/:animal", function (req, res) {
     let animal = req.params['animal'];
@@ -18,7 +18,7 @@ app.get("/speak/:animal", function (req, res) {
         case "dog": res.send("The dog says 'Woof Woof!'"); break;
         default: res.send("This animal is mute");
     }
-})
+});
 
 app.get("/repeat/:word/:iter", function (req, res) {
     let result = "";
@@ -26,8 +26,8 @@ app.get("/repeat/:word/:iter", function (req, res) {
         result = result + " " + req.params['word'];;
     }
     res.send(result);
-})
+});
 
 app.get("*", function (req, res) {
     res.send("Sorry, page not found.. What are you doing with your life?");
-})
+});

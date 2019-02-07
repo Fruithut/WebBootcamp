@@ -1,8 +1,8 @@
 let isGameOver = false;
 let winningScore = 5;
 
-let winScoreDisp = document.querySelector("#winDisplay")
-let numInput = document.querySelector("#numInput")
+let winScoreDisp = document.querySelector("#winDisplay");
+let numInput = document.querySelector("#numInput");
 numInput.addEventListener("change", function () {
     if (numInput.value < 1) this.value = 1; // force positive score
     winScoreDisp.textContent = this.value;
@@ -11,7 +11,7 @@ numInput.addEventListener("change", function () {
 });
 
 let p1Score = 0;
-let p1Disp = document.querySelector("#p1Display")
+let p1Disp = document.querySelector("#p1Display");
 let p1Button = document.querySelector("#p1");
 p1Button.addEventListener("click", function () {
     if (isGameOver) return;
@@ -24,7 +24,7 @@ p1Button.addEventListener("click", function () {
 });
 
 let p2Score = 0;
-let p2Disp = document.querySelector("#p2Display")
+let p2Disp = document.querySelector("#p2Display");
 let p2Button = document.querySelector("#p2");
 p2Button.addEventListener("click", function () {
     if (isGameOver) return;

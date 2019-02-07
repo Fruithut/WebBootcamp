@@ -8,12 +8,12 @@ app.set("view engine", "ejs");
 
 app.get("/", function(req, res) {
     res.render("home");
-})
+});
 
 app.get("/youchoose/:thing", function(req, res) {
     let thing = req.params.thing;
     res.render("choose", {thingVar: thing});
-})
+});
 
 app.get("/posts", function(req, res) {
     let posts = [
@@ -23,8 +23,8 @@ app.get("/posts", function(req, res) {
     ];
 
     res.render("posts", {posts: posts});
-})
+});
 
 app.listen(process.env.PORT || 3000, function start() {
     console.log("Server has started.");
-})
+});

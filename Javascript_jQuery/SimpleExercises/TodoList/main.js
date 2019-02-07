@@ -13,5 +13,4 @@ for (let i = 0; i < liElements.length; i++) {
     liElements[i].addEventListener("mouseout", function(){
         this.classList.remove("selected");
     });
-
 }

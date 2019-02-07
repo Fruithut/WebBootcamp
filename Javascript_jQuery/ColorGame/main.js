@@ -78,7 +78,7 @@ function getRandomColor() {
 }
 
 function getRandomColors(nColors) {
-    let colorArray = []
+    let colorArray = [];
     for (let i = 0; i < nColors; i++) {
         colorArray.push(getRandomColor());
     }
