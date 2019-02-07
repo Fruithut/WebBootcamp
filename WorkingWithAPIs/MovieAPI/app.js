@@ -5,11 +5,11 @@ app.set("view engine", "ejs");
 
 app.listen(process.env.PORT || 3000, function () {
     console.log("Movie app has started...")
-})
+});
 
 app.get("/", function(req, res) {
     res.render("search");
-})
+});
 
 app.get("/results", function (req, res) {
     let searchTerm = req.query.search;
@@ -19,7 +19,7 @@ app.get("/results", function (req, res) {
             res.render("results", {results: results});
         }
     })
-})
+});
 
 
 

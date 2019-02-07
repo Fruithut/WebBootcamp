@@ -1,5 +1,11 @@
+# local project
 NodeIntro
 NpmIntro
 PatatapClone
-node_modules
 FirstTry
+
+# intellij
+*.idea
+
+# nodejs
+node_modules
