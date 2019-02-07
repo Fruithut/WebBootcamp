@@ -7,13 +7,13 @@ let catSchema = new mongoose.Schema({
     temperament: String
 });
 
-let dbModel = mongoose.model("Cat", catSchema);
+let catModel = mongoose.model("Cat", catSchema);
 
 /**
  * Saving a new cat to the db
  */
 
-let newEntry = new Cat({
+let newEntry = new catModel({
     name: "Mrs. Norris",
     age: 12,
     temperament: "Evil"
@@ -31,7 +31,7 @@ newEntry.save(function(err, cat) {
 /**
  * Adding a new cat directly
  */
-dbModel.create({
+catModel.create({
     name: "Snow White",
     age: 15,
     temperament: "Bland"
@@ -47,7 +47,7 @@ dbModel.create({
 /**
  * Retrieve all cats from database
  */
-dbModel.find({}, function(err, searchResult) {
+catModel.find({}, function(err, searchResult) {
     if (err) {
         console.log("We should really handle this error..");
         console.log(err);
