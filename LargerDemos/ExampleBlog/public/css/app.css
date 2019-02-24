@@ -1,0 +1,7 @@
+.container.ui {
+    margin-top: 6em;
+}
+
+#deleteForm {
+    display: inline;
+}

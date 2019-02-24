@@ -1,0 +1,26 @@
+<% include ./partials/header %>
+
+        <div class="ui raised very padded container segment">
+            <h2 class="ui header">Edit "<%= blog.title %>"</h2>
+            <!--Do note the use of ?_method=PUT which overrides POST method -->
+            <form class="ui form" action="/blogs/<%= blog._id %>?_method=PUT" method="POST">
+                <div class="field">
+                    <label>Title
+                        <input type="text" name="blog[title]" value="<%= blog.title %>" required>
+                    </label>
+                </div>
+                <div class="field">
+                    <label>Image
+                        <input type="text" name="blog[image]" value="<%= blog.image %>">
+                    </label>
+                </div>
+                <div class="field">
+                    <label>Post Content
+                        <textarea name="blog[body]" required><%= blog.body %></textarea>
+                    </label>
+                </div>
+                <button type="submit" class="ui orange basic button">Update</button>
+            </form>
+        </div>
+
+<% include ./partials/footer %>
